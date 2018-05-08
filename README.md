@@ -25,3 +25,6 @@ There is a lag or system hang while optimizing, so be patient and wait. Edit *yo
 ```
 sudo apt-get install libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
 ```
+
+##TODO
+So far, we are using the same algorithm with Mandelhoff. Me and my guys are developing different approach to improve the performance soon.
