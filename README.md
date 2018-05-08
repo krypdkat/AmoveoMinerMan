@@ -18,7 +18,7 @@ pool_URL
 YourLuckyString
 suffixMax
 ```
-### deviceconfig.txt
+### deviceconfig.txt (we recommend you run AmoveoMinerMan 2 instead of editing this file manually)
 ```
 number of device
 device id 0 block size number of blocks
