@@ -6,7 +6,22 @@ This miner is optimized for CUDA code, which is designed for Nvidia devices. So 
 - First you'll need to run "AmoveoMinerMan.exe 2" to find and optimize your system. (1 time step)
 - You can run "AmoveoMinerMan.exe 1" to benchmark current config or "AmoveoMinerMan.exe 0" to start mining
 There is a lag or system hang while optimizing, so be patient and wait. Edit *your wallet address* inside config.txt
-
+## Config example (config.txt & deviceconfig.txt)
+### config.txt
+```
+your_address
+pool_URL
+YourLuckyString
+suffixMax
+```
+### deviceconfig.txt
+```
+number of device
+device id 0 block size number of blocks
+device id 1 block size number of blocks
+device id 2 block size number of blocks
+```
+  
 ## Known performance:
 - GTX 1080Ti: 4.7 GH/s
 - GTX 1080: ??
