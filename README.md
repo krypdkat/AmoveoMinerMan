@@ -3,20 +3,21 @@ Miner for Amoveo blockchain
 This miner is optimized for CUDA code, which is designed for Nvidia devices. So AMD cards can not run this miner at present.
 
 ## Usage:
-- First you'll need to run "AmoveoMinerMan.exe 2" to find and optimize your system. (1 time step)
-- You can run "AmoveoMinerMan.exe 1" to benchmark current config or "AmoveoMinerMan.exe 0" to start mining.
+Just run the executable file, everything will be done automatically
+#### If you are Linux miner, just don't care about below lines.
+### For Windows miner
+- In order to run this miner please do as the following document to turn off WDDM TDR: https://docs.nvidia.com/gameworks/content/developertools/desktop/timeout_detection_recovery.htm
+- By default, FORCE_FULL_INTENSITY_DISPLAY_ACTIVE is auto-disabled for windows user, this flag prevents lag and freezes while mining. Actually, this is a trade-off, hash rate of the display GPU should be decreased by 20%.
+- To turn on this flag FORCE_FULL_INTENSITY_DISPLAY_ACTIVE please add FORCE_FULL_INTENSITY_DISPLAY_ACTIVE at the end of the config file.
 
-There is a lag or system hang while optimizing, so be patient and wait.
-
-Edit *your wallet address* inside config.txt
+Remember to Edit *your wallet address* inside config.txt
 
 ## Config example (config.txt & deviceconfig.txt)
 ### config.txt
 ```
-your_address
-pool_URL
-YourLuckyString
-suffixMax
+your_address <required>
+pool_URL <required>
+flag <optional>
 ```
 ### deviceconfig.txt (we recommend you run AmoveoMinerMan 2 instead of editing this file manually)
 ```
@@ -46,4 +47,4 @@ sudo apt-get install libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ 
 ```
 
 ##TODO
-So far, we are using the same algorithm with Mandelhoff. Me and my guys are developing different approach to improve the performance soon.
+So far, we see many new techniques to improve this miners. But we need to collect more feedback to finalize basic things.
