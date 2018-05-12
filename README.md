@@ -3,7 +3,12 @@ Miner for Amoveo blockchain
 This miner is optimized for CUDA code, which is designed for Nvidia devices. So AMD cards can not run this miner at present.
 
 ## Usage:
-Just run the executable file, everything will be done automatically
+Just run the executable file, everything will be done automatically.
+#### While mining:
+- Press [i] then [enter] to see share infomation.
+- Press [q] then [enter] to exit.
+
+  
 #### If you are Linux miner, just don't care about below lines.
 ### For Windows miner
 - In order to run this miner please do as the following document to turn off WDDM TDR: https://docs.nvidia.com/gameworks/content/developertools/desktop/timeout_detection_recovery.htm
@@ -30,12 +35,12 @@ device id 2 block size number of blocks
 ```
   
 ## Known performance:
-- GTX 1080Ti: 4.7 GH/s
+- GTX 1080Ti: 4.7 GH/s (5.2 GH/s for OC cards)
 - GTX 1080: ??
 - GTX 1070Ti: ??
 - GTX 1060: ??
 - GTX 1050: ??
-- GTX 970: 1.2 GH/s
+- GTX 970: 1.7 GH/s
 ## Known issue:
 - GPUs getting hotter than normal version ~4-5 Celsius
 - Lag and hang on Windows since we use total mem/cores in display GPU.
