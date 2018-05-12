@@ -10,6 +10,8 @@ Just run the executable file, everything will be done automatically
 - By default, FORCE_FULL_INTENSITY_DISPLAY_ACTIVE is auto-disabled for windows user, this flag prevents lag and freezes while mining. Actually, this is a trade-off, hash rate of the display GPU should be decreased by 20%.
 - To turn on this flag FORCE_FULL_INTENSITY_DISPLAY_ACTIVE please add FORCE_FULL_INTENSITY_DISPLAY_ACTIVE at the end of the config file.
 
+## If you have troubles while running the miner, please run Debug version and post the issue on this repo. We are pleased to help you.
+
 Remember to Edit *your wallet address* inside config.txt
 
 ## Config example (config.txt & deviceconfig.txt)
