@@ -20,9 +20,6 @@ Just run the executable file, everything will be done automatically.
 4. restart your machine
 5. DONE!
 
-Your NVIDIA Nsight should be like this:
-![alt text](https://docs.nvidia.com/gameworks/content/developertools/desktop/images/nsight_monitor_general.002.png)
-
 - By default, FORCE_FULL_INTENSITY_DISPLAY_ACTIVE is auto-disabled for windows user, this flag prevents lag and freezes while mining. Actually, this is a trade-off, hash rate of the display GPU should be decreased by 20%.
 - To turn on this flag FORCE_FULL_INTENSITY_DISPLAY_ACTIVE please add FORCE_FULL_INTENSITY_DISPLAY_ACTIVE at the end of the config file.
 
