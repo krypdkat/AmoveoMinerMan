@@ -12,7 +12,8 @@ Just run the executable file, everything will be done automatically.
 #### If you are Linux miner, just don't care about below lines.
 ### For Windows miner
 - In order to run this miner please do as the following document to turn off WDDM TDR: https://docs.nvidia.com/gameworks/content/developertools/desktop/timeout_detection_recovery.htm
-Your screen should be like this:
+
+Your NVIDIA Nsight should be like this:
 ![alt text](https://docs.nvidia.com/gameworks/content/developertools/desktop/images/nsight_monitor_general.002.png)
 
 - By default, FORCE_FULL_INTENSITY_DISPLAY_ACTIVE is auto-disabled for windows user, this flag prevents lag and freezes while mining. Actually, this is a trade-off, hash rate of the display GPU should be decreased by 20%.
