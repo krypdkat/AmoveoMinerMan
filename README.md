@@ -50,7 +50,8 @@ device id 2 block size number of blocks
 ### Linux Install dependencies
 
 ```
-sudo apt-get install libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
+sudo apt-get update
+sudo apt-get install libcpprest2.8 libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
 ```
 
 ## TODO
