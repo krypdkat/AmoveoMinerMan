@@ -10,8 +10,15 @@ Just run the executable file, everything will be done automatically.
 
   
 #### If you are Linux miner, just don't care about below lines.
-### For Windows miner
-- In order to run this miner please do as the following document to turn off WDDM TDR: https://docs.nvidia.com/gameworks/content/developertools/desktop/timeout_detection_recovery.htm
+### For Windows miner (turning off WDDM TDR)
+- In order to run this miner please turn off WDDM TDR:
+1. Open regedit.exe by press [windows] button, then type "regedit.exe", then press [enter]
+![step1](https://i.imgur.com/3mrosJi.png)
+2. following this path: HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\GraphicsDrivers
+![step2](https://i.imgur.com/cxjWWY3.png)
+3. Create a DWORD and name it "TdrLevel", set the value to 0.
+4. restart your machine
+5. DONE!
 
 Your NVIDIA Nsight should be like this:
 ![alt text](https://docs.nvidia.com/gameworks/content/developertools/desktop/images/nsight_monitor_general.002.png)
