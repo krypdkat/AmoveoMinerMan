@@ -1,5 +1,8 @@
-# AmoveoMinerMan (v0.3)
+# AmoveoMinerMan (v0.3 - May-17-2018)
 Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/V0.3
+
+Currently, I'm supporting people here: https://discord.gg/zwWeHt
+
 Miner for Amoveo blockchain
 This miner is optimized for CUDA code, which is designed for Nvidia devices. So AMD cards can not run this miner at present.
 
@@ -40,6 +43,10 @@ device_id_2 intensity_rate
 - GTX 1060: ??
 - GTX 1050: ??
 - GTX 970: 1.7 GH/s
+
+## Known profitable:
+- 10Ghs = 0.1VEO/day
+
 ## Known issue:
 
 ## Linux
