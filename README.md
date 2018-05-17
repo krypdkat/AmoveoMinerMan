@@ -1,4 +1,5 @@
-# AmoveoMinerMan
+# AmoveoMinerMan (v0.3)
+Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/V0.3
 Miner for Amoveo blockchain
 This miner is optimized for CUDA code, which is designed for Nvidia devices. So AMD cards can not run this miner at present.
 
@@ -15,8 +16,6 @@ Just run the executable file, everything will be done automatically.
 - By default, FORCE_FULL_INTENSITY_DISPLAY_ACTIVE is auto-disabled for windows user, this flag prevents lag and freezes while mining. Actually, this is a trade-off, hash rate of the display GPU should be decreased by 20%.
 - To turn on this flag FORCE_FULL_INTENSITY_DISPLAY_ACTIVE please add FORCE_FULL_INTENSITY_DISPLAY_ACTIVE at the end of the config file.
 
-## If you have troubles while running the miner, please run Debug version and post the issue on this repo. We are pleased to help you.
-
 Remember to Edit *your wallet address* inside config.txt
 
 ## Config example (config.txt & deviceconfig.txt)
@@ -29,9 +28,9 @@ flag <optional>
 ### deviceconfig.txt (we recommend you run AmoveoMinerMan 2 instead of editing this file manually)
 ```
 number of device
-device id 0 block size number of blocks
-device id 1 block size number of blocks
-device id 2 block size number of blocks
+device_id_0 intensity_rate
+device_id_1 intensity_rate
+device_id_2 intensity_rate
 ```
   
 ## Known performance:
@@ -42,8 +41,6 @@ device id 2 block size number of blocks
 - GTX 1050: ??
 - GTX 970: 1.7 GH/s
 ## Known issue:
-- GPUs getting hotter than normal version ~4-5 Celsius
-- Lag and hang on Windows since we use total mem/cores in display GPU.
 
 ## Linux
 
