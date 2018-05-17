@@ -12,6 +12,9 @@ Just run the executable file, everything will be done automatically.
 - Press [i] then [enter] to see share infomation.
 - Press [q] then [enter] to exit.
 
+### Mining with auto-script:
+- There is an auto-mining file that restarts miner every 2 hours inside the zip file, and it makes our miner more stable
+
   
 #### If you are Linux miner, just don't care about below lines.
 ### For Windows miner (turning off WDDM TDR)
