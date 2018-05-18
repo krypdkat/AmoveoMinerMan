@@ -4,7 +4,8 @@ Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/V0.3
 Currently, I'm supporting people here: https://discord.gg/zwWeHt
 
 Miner for Amoveo blockchain
-This miner is optimized for CUDA code, which is designed for Nvidia devices. So AMD cards can not run this miner at present.
+
+This miner is optimized for Nvidia devices. So AMD cards can not run this miner at present.
 
 ## Usage:
 Just run the executable file, everything will be done automatically.
@@ -31,7 +32,7 @@ your_address <required>
 pool_URL <required>
 flag <optional>
 ```
-### deviceconfig.txt (we recommend you run AmoveoMinerMan 2 instead of editing this file manually)
+### deviceconfig.txt (we recommend you should let AmoveoMinerMan generates the config file)
 ```
 number of device
 device_id_0 intensity_rate
