@@ -60,10 +60,10 @@ device_id_2 intensity_rate
 sudo apt-get update
 sudo apt-get install libcpprest2.8 libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
 ```
-
+If you can not install above libs, copy ***.so** files inside the bundle to this path: **/usr/lib/x86_64-linux-gnu** and **/usr/lib**
 ## TODO
-- So far, we see many new techniques to improve this miners. But we need to collect more feedback to finalize basic things.
-- Porting the code to OpenCL: We are currently waiting for the money that comes from VEO donation in order to buy AMD hardwares. If you really want us to create AMD_VeoMiner, please donate some.
+- There're more than 3 ideas that we can improve the HR.
+- Porting the code to OpenCL.
 # Donation
 - VEO: BBFyaRMOSSNCzsa9t8cj8+1yT9oEr2hexJ4vUiOKWmsj0bFet9IvSfnxq5g0eZ/vodM4BjlGJlPi6NBb9xmdw3E=
 - ETH: 0x5DD020B1b6e90d49D3350061393a0F555f1BFa0D
