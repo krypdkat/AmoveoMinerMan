@@ -20,8 +20,7 @@ Just run the executable file, everything will be done automatically.
 #### If you are Linux miner, just don't care about below lines.
 ### For Windows miner (turning off WDDM TDR)
 - [Important] In order to run this miner please turn off WDDM TDR: run UnlockWDDM_TDR.reg inside the bundle, then restart your machine.
-- By default, FORCE_FULL_INTENSITY_DISPLAY_ACTIVE is auto-disabled for windows user, this flag prevents lag and freezes while mining. Actually, this is a trade-off, hash rate of the display GPU should be decreased by 20%.
-- To turn on this flag FORCE_FULL_INTENSITY_DISPLAY_ACTIVE please add FORCE_FULL_INTENSITY_DISPLAY_ACTIVE at the end of the config file.
+- FORCE_FULL_INTENSITY_DISPLAY_ACTIVE flag is deprecated. Please don't use it.
 
 Remember to Edit *your wallet address* inside config.txt
 
