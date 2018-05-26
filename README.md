@@ -1,4 +1,4 @@
-# AmoveoMinerMan (v0.3.3 - May-22-2018)
+# AmoveoMinerMan (v0.3.4 - May-24-2018)
 Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v0.3.3
 
 Currently, I'm supporting people here: https://discord.gg/zwWeHt
@@ -29,7 +29,9 @@ Remember to Edit *your wallet address* inside config.txt
 ```
 your_address <required>
 pool_URL <required>
-flag <optional>
+pool_URL_1 <optional>
+pool_URL_2 <optional>
+pool_URL_3 <optional>
 ```
 ### deviceconfig.txt (we recommend you should let AmoveoMinerMan generates the config file)
 ```
