@@ -1,7 +1,7 @@
 # AmoveoMinerMan (v0.3.4 - May-25-2018)
 Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v0.3.4.1
 
-Currently, I'm supporting people here: https://discord.gg/zwWeHt
+Currently, I'm supporting people here: https://discord.gg/RMMhFHV
 
 Miner for Amoveo blockchain
 
