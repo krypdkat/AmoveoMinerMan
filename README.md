@@ -40,17 +40,25 @@ device_id_0 intensity_rate
 device_id_1 intensity_rate
 device_id_2 intensity_rate
 ```
-  
+
+### Added auto-generate worker name by adding `%computername%` at the end of your wallet. (work with pools that support worker name). 
+#### Example:
+your wallet:
+- `BBFyaRMOSSNCzsa9t8cj8+1yT9oEr2hexJ4vUiOKWmsj0bFet9IvSfnxq5g0eZ/vodM4BjlGJlPi6NBb9xmdw3E=`
+
+edit the wallet address inside config.txt to:
+- `BBFyaRMOSSNCzsa9t8cj8+1yT9oEr2hexJ4vUiOKWmsj0bFet9IvSfnxq5g0eZ/vodM4BjlGJlPi6NBb9xmdw3E=.%computername%` (remember, there is a dot right after equal symbol)
+
+### Auto-switching pools (anti-ddos)
+- Auto switching pool URL: Put all of your favorite pool URLs inside your config.txt, the miner will switch to another pool after 3 times fail to connect, and then it will try to switch back to your main pool after 1 hour. Example inside the config.txt file
+
 ## Known performance:
-- GTX 1080Ti: 4.7 GH/s (5.2 GH/s for OC cards)
+- GTX 1080Ti: 4.8 GH/s (5.5 GH/s for OC cards)
 - GTX 1080: ??
 - GTX 1070Ti: ??
 - GTX 1060: ??
 - GTX 1050: ??
-- GTX 970: 1.7 GH/s
-
-## Known profitable:
-- 10Ghs = 0.1VEO/day
+- GTX 970: 1.5 GH/s (1.7 GH/s for OC cards)
 
 ## Known issue:
 
