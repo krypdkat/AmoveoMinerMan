@@ -1,5 +1,5 @@
-# AmoveoMinerMan (v0.3.4.3 - May-29-2018)
-Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v0.3.4.3
+# AmoveoMinerMan (v0.4 - Jun-05-2018)
+Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v0.4
 
 Currently, I'm supporting people here: https://discord.gg/RMMhFHV
 
@@ -16,7 +16,8 @@ Just run the executable file, everything will be done automatically.
 ### Mining with auto-script:
 - There is an auto-mining file that restarts miner every 2 hours inside the zip file, and it makes our miner more stable
 
-  
+### RESTs API here: https://github.com/krypdkat/AmoveoMinerMan/blob/master/http.md
+
 #### If you are Linux miner, just don't care about below lines.
 ### For Windows miner (turning off WDDM TDR)
 - [Important] In order to run this miner please turn off WDDM TDR: run UnlockWDDM_TDR.reg inside the bundle, then restart your machine.
