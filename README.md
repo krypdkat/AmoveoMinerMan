@@ -1,5 +1,5 @@
-# AmoveoMinerMan (v0.4.2 - Jun-11-2018)
-Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v0.4.2
+# AmoveoMinerMan (v0.4.3 - Jun-27-2018) (please use the lastest, amoveo nodes have been updated)
+Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v0.4.3
 
 Currently, I'm supporting people here: https://discord.gg/RMMhFHV
 
