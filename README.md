@@ -1,6 +1,8 @@
-# AmoveoMinerMan (v1.0.1 - Nov-18-2018) (please use the lastest, amoveo nodes have been updated)
+# AmoveoMinerMan (v1.0.1 - Nov-18-2018) (please use the lastest for better performance)
 Download here:
+
 Cuda version(Optimized for Nvidia devices): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/1.01
+
 OCL version(both AMD and Cuda, even Intel chip): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v1.0
 
 Currently, I'm supporting people here: https://discord.gg/RMMhFHV
