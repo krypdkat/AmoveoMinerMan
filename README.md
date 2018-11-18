@@ -1,5 +1,7 @@
-# AmoveoMinerMan (v0.4.3 - Jun-27-2018) (please use the lastest, amoveo nodes have been updated)
-Download here: https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v0.4.3
+# AmoveoMinerMan (v1.0.1 - Nov-18-2018) (please use the lastest, amoveo nodes have been updated)
+Download here:
+Cuda version(Optimized for Nvidia devices): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/1.01
+OCL version(both AMD and Cuda, even Intel chip): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v1.0
 
 Currently, I'm supporting people here: https://discord.gg/RMMhFHV
 
@@ -54,10 +56,10 @@ edit the wallet address inside config.txt to:
 - Auto switching pool URL: Put all of your favorite pool URLs inside your config.txt, the miner will switch to another pool after 3 times fail to connect, and then it will try to switch back to your main pool after 1 hour. Example inside the config.txt file
 
 ## Known performance:
-- GTX 1080Ti: 4.8 GH/s (5.5 GH/s for OC cards)
-- GTX 1080: ??
-- GTX 1070Ti: ??
-- GTX 1060: ??
+- GTX 1080Ti: 5.0 GH/s (5.8 GH/s for OC cards)
+- GTX 1080: 2.9 -> 3.2 GH/s
+- GTX 1070: 2.5 -> 2.7 GH/s
+- GTX 1060: 1.7 -> 1.9 Gh/s
 - GTX 1050: ??
 - GTX 970: 1.5 GH/s (1.7 GH/s for OC cards)
 
