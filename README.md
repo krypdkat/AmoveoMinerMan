@@ -1,11 +1,11 @@
 # AmoveoMinerMan (v1.0.1 - Nov-28-2018) (using the latest version is better)
 Download here:
 
-For Nvidia devices:
+**For Nvidia devices:**
 
 Cuda version(Optimized for Nvidia devices): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/1.01
 
-For AMD devices:
+**For AMD devices:**
 
 OCL version(both AMD and Cuda, even Intel chips): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/1.01
 
