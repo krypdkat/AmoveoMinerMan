@@ -15,6 +15,10 @@ Miner for Amoveo blockchain
 
 ## Usage:
 Just run the executable file, everything will be done automatically.
+
+### For OCL version
+you can pass `-n=xxx` and `-b=yyy` to tune the performance. FYI, `n` stands for number of threads per block, `b` stands for number of block.
+
 #### While mining:
 - Press [i] then [enter] to see share infomation.
 - Press [q] then [enter] to exit. If it doesn't exit in 10 seconds, press [Ctrl] + [C]
