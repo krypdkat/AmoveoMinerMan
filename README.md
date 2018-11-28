@@ -1,31 +1,28 @@
-# AmoveoMinerMan (v1.0.1 - Nov-18-2018) (please use the lastest for better performance)
+# AmoveoMinerMan (v1.0.1 - Nov-28-2018) (using the latest version is better)
 Download here:
+
+For Nvidia devices:
 
 Cuda version(Optimized for Nvidia devices): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/1.01
 
-OCL version(both AMD and Cuda, even Intel chip): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/v1.0
+For AMD devices:
 
-Currently, I'm supporting people here: https://discord.gg/RMMhFHV
+OCL version(both AMD and Cuda, even Intel chips): https://github.com/krypdkat/AmoveoMinerMan/releases/tag/1.01
+
+I'm supporting people at `dkat-mining` box, amoveo channel.
 
 Miner for Amoveo blockchain
-
-This miner is optimized for Nvidia devices. So AMD cards can not run this miner at present.
 
 ## Usage:
 Just run the executable file, everything will be done automatically.
 #### While mining:
 - Press [i] then [enter] to see share infomation.
-- Press [q] then [enter] to exit.
+- Press [q] then [enter] to exit. If it doesn't exit in 10 seconds, press [Ctrl] + [C]
 
 ### Mining with auto-script:
 - There is an auto-mining file that restarts miner every 2 hours inside the zip file, and it makes our miner more stable
 
 ### RESTs API here: https://github.com/krypdkat/AmoveoMinerMan/blob/master/http.md
-
-#### If you are Linux miner, just don't care about below lines.
-### For Windows miner (turning off WDDM TDR)
-- [Important] In order to run this miner please turn off WDDM TDR: run UnlockWDDM_TDR.reg inside the bundle, then restart your machine.
-- FORCE_FULL_INTENSITY_DISPLAY_ACTIVE flag is deprecated. Please don't use it.
 
 Remember to Edit *your wallet address* inside config.txt
 
@@ -55,7 +52,7 @@ edit the wallet address inside config.txt to:
 - `BBFyaRMOSSNCzsa9t8cj8+1yT9oEr2hexJ4vUiOKWmsj0bFet9IvSfnxq5g0eZ/vodM4BjlGJlPi6NBb9xmdw3E=.%computername%` (remember, there is a dot right after equal symbol)
 
 ### Auto-switching pools (anti-ddos)
-- Auto switching pool URL: Put all of your favorite pool URLs inside your config.txt, the miner will switch to another pool after 3 times fail to connect, and then it will try to switch back to your main pool after 1 hour. Example inside the config.txt file
+- Auto switching pool URL: Put all of your favorite pool URLs inside your config.txt, the miner will switch to another pool if current pool is dead. If the miner can't connect to any pool URLs, it will be terminated.
 
 ## Known performance:
 - GTX 1080Ti: 5.0 GH/s (5.8 GH/s for OC cards)
@@ -65,10 +62,9 @@ edit the wallet address inside config.txt to:
 - GTX 1050: ??
 - GTX 970: 1.5 GH/s (1.7 GH/s for OC cards)
 
-## Known issue:
+## Known issues:
 
 ## Linux
-
 ### Linux Install dependencies
 
 ```
@@ -76,9 +72,7 @@ sudo apt-get update
 sudo apt-get install libcpprest2.8 libcpprest-dev libncurses5-dev libssl-dev unixodbc-dev g++ git
 ```
 If you can not install above libs, copy ***.so** files inside the bundle to this path: **/usr/lib/x86_64-linux-gnu** and **/usr/lib**
-## TODO
-- There're more than 3 ideas that we can improve the HR.
-- Porting the code to OpenCL.
+
 # Donation
 - VEO: BBFyaRMOSSNCzsa9t8cj8+1yT9oEr2hexJ4vUiOKWmsj0bFet9IvSfnxq5g0eZ/vodM4BjlGJlPi6NBb9xmdw3E=
 - ETH: 0x5DD020B1b6e90d49D3350061393a0F555f1BFa0D
